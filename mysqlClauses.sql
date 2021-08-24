@@ -22,3 +22,7 @@ WHERE last_name IN ('Herber', 'Dredge', 'Lipner', 'Baek');
 SELECT emp_no, first_name, last_name
 FROM employees
 WHERE last_name = 'Herber' or last_name = 'Dredge';
+
+
+
+select * from employees.employees e  ORDER BY e.hire_date desc;
